@@ -9,7 +9,7 @@ public enum ResourceNodeType
     Ore
 }
 
-[CreateAssetMenu(menuName ="Data/Tool action/Gather resource node")]
+[CreateAssetMenu(menuName ="Data/Tool Action/Gather resource node")]
 public class GatherResourceNode : ToolAction
 {
     [SerializeField] float sizeOfInteractableArea = 1.0f;
