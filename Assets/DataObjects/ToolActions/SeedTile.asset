@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf996853f900ec74bbd8a43886c96efb, type: 3}
   m_Name: SeedTile
   m_EditorClassIdentifier: 
+  canSeed:
+  - {fileID: 11400000, guid: e99f258a3e7f5db4e9a0799e1359dedd, type: 2}

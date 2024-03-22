@@ -6,6 +6,7 @@ using UnityEngine.Tilemaps;
 public class TileMapReadController : MonoBehaviour
 {
     [SerializeField] Tilemap tilemap;
+    [SerializeField] Tilemap tilemapCrops;
     public CropsManager cropsManager;
 
     private void Update()
@@ -35,6 +36,13 @@ public class TileMapReadController : MonoBehaviour
     public TileBase GetTileBase(Vector3Int gridPosition)
     {
         TileBase tile = tilemap.GetTile(gridPosition);
+        Debug.Log("gridposition " + gridPosition + "tile" + tile);
+        return tile;
+    }
+
+    public TileBase GetTileBaseCrop(Vector3Int gridPosition)
+    {
+        TileBase tile = tilemapCrops.GetTile(gridPosition);
         Debug.Log("gridposition " + gridPosition + "tile" + tile);
         return tile;
     }

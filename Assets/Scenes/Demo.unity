@@ -1067,6 +1067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilemap: {fileID: 981293020}
+  tilemapCrops: {fileID: 1264645638}
   cropsManager: {fileID: 488896761}
 --- !u!114 &488896761
 MonoBehaviour:

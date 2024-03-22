@@ -39,7 +39,7 @@ public class CropsManager : MonoBehaviour
     public void Seed(Vector3Int position)
     {
         if (GameManager.instance.player)
-        targetTilemap.SetTile(position, seeded);
+            targetTilemap.SetTile(position, seeded);
     }
 
     private void CreatePlowedTile(Vector3Int position)
